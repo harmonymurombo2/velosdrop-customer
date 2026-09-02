@@ -130,20 +130,20 @@
       "router": {
         "origin": false
       },
-      "eas": {
-        "projectId": "8df8cd49-b824-4e02-aca7-0ca355a1460c"
-      },
       "EXPO_PUBLIC_API_URL": "https://velosdrop.com",
       "EXPO_PUBLIC_TURSO_SYNC_URL": "libsql://velosdrop-harmony.aws-us-east-1.turso.io",
       "EXPO_PUBLIC_TURSO_AUTH_TOKEN": "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJhIjoicnciLCJpYXQiOjE3NTM3MTU1NDYsImlkIjoiODJhMGUzNzktMTMzOC00YWY0LTk5MTgtZGQwNTkwODdmOGU1IiwicmlkIjoiOTczNThlOGEtZjZhOC00ZTkwLWE1NzUtZWQwMWNmNDZjYTcwIn0.tAOj1wwXsG4BqX2HmzBKRkafXG2SmfS81n7vjr3YB0VcKQVEJi-4m-21-JgoLIJzeMrFIOtD2VV_WzyX-ChNAQ",
       "EXPO_PUBLIC_GOOGLE_MAPS_API_KEY": "AIzaSyBY8xIYWFGSB9EMjm-K705GwDRiS305-m4",
       "EXPO_PUBLIC_GOOGLE_ANDROID_CLIENT_ID": "197377244964-84nlmi56o2m63lipip1ulkra4lcksrm6.apps.googleusercontent.com",
-      "EXPO_PUBLIC_GOOGLE_WEB_CLIENT_ID": "197377244964-402g6igdhcppjm0ro4v1l4hteo3b5jvm.apps.googleusercontent.com"
+      "EXPO_PUBLIC_GOOGLE_WEB_CLIENT_ID": "197377244964-402g6igdhcppjm0ro4v1l4hteo3b5jvm.apps.googleusercontent.com",
+      "eas": {
+        "projectId": "e6f3e522-4e6e-4a40-b2d1-45b9483d05ee"
+      }
     },
     "experiments": {
       "typedRoutes": true,
       "tsconfigPaths": true
     },
-    "owner": "velosdrops-organization"
+    "owner": "engineer-harmony"
   }
 }
