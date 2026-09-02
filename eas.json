@@ -1,0 +1,53 @@
+{
+  "cli": {
+    "version": ">= 16.28.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://www.velosdrop.com/",
+        "EXPO_PUBLIC_TURSO_SYNC_URL": "libsql://velosdrop-harmony.aws-us-east-1.turso.io",
+        "EXPO_PUBLIC_TURSO_AUTH_TOKEN": "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9...",
+        "EXPO_PUBLIC_GOOGLE_MAPS_API_KEY": "AIzaSyBY8xIYWFGSB9EMjm-K705GwDRiS305-m4",
+        "EXPO_PUBLIC_GOOGLE_ANDROID_CLIENT_ID": "197377244964-84nlmi56o2m63lipip1ulkra4lcksrm6.apps.googleusercontent.com",
+        "EXPO_PUBLIC_GOOGLE_WEB_CLIENT_ID": "197377244964-402g6igdhcppjm0ro4v1l4hteo3b5jvm.apps.googleusercontent.com"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "android": {
+        "buildType": "app-bundle"
+      },
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://www.velosdrop.com/",
+        "EXPO_PUBLIC_TURSO_SYNC_URL": "libsql://velosdrop-harmony.aws-us-east-1.turso.io",
+        "EXPO_PUBLIC_TURSO_AUTH_TOKEN": "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJhIjoicnciLCJpYXQiOjE3NTM3MTU1NDYsImlkIjoiODJhMGUzNzktMTMzOC00YWY0LTk5MTgtZGQwNTkwODdmOGU1IiwicmlkIjoiOTczNThlOGEtZjZhOC00ZTkwLWE1NzUtZWQwMWNmNDZjYTcwIn0.tAOj1wwXsG4BqX2HmzBKRkafXG2SmfS81n7vjr3YB0VcKQVEJi-4m-21-JgoLIJzeMrFIOtD2VV_WzyX-ChNAQ",
+        "EXPO_PUBLIC_GOOGLE_MAPS_API_KEY": "AIzaSyBY8xIYWFGSB9EMjm-K705GwDRiS305-m4",
+        "EXPO_PUBLIC_GOOGLE_ANDROID_CLIENT_ID": "197377244964-84nlmi56o2m63lipip1ulkra4lcksrm6.apps.googleusercontent.com",
+        "EXPO_PUBLIC_GOOGLE_WEB_CLIENT_ID": "197377244964-402g6igdhcppjm0ro4v1l4hteo3b5jvm.apps.googleusercontent.com"
+      }
+    },
+    "production-apk": {
+      "extends": "production",
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
